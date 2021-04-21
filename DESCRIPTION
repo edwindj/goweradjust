@@ -1,0 +1,45 @@
+Package: goweradjust
+Type: Package
+Title: Adjust Values and Impute Missing Values with Validation Rules
+Version: 0.1.0.9000
+Authors@R: c(person("Edwin", "de Jonge", email = "edwindjonge@gmail.com"
+  , role = c("aut", "cre"), comment=c(ORCID="0000-0002-6580-4718")))
+Description: Adjust and impute data using validation rules from package 'validate'.
+License: GPL-3
+LazyData: TRUE
+URL: https://github.com/edwindj/goweradjust
+BugReports: https://github.com/edwindj/goweradjust/issues
+Depends:
+    validate
+Imports:
+    lpSolveAPI,
+    methods,
+    parallel
+Suggests:
+    testthat (>= 2.1.0),
+    covr,
+    knitr,
+    rmarkdown
+RoxygenNote: 7.1.1
+Encoding: UTF-8
+Collate: 
+    'MipRules.R'
+    'addnoise.R'
+    'categorical.R'
+    'conditional.R'
+    'dnf.R'
+    'errorlocalizer.R'
+    'errorlocation.R'
+    'expr_manip.R'
+    'gower_adjust.R'
+    'inspect_mip.R'
+    'linear.R'
+    'log_extract.R'
+    'mip_lpsolve.R'
+    'mip_rule.R'
+    'replace-errors.R'
+    'soft-rule.R'
+    'utils.R'
+    'values.R'
+VignetteBuilder: knitr
+Roxygen: list(markdown = TRUE)

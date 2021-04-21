@@ -1,0 +1,17 @@
+^.*\.Rproj$
+^useR2017
+^uRos2018
+^\.Rproj\.user$
+^\.travis\.yml$
+^examples
+^issues
+^appveyor\.yml$
+^codecov\.yml$
+^README\.md$
+^README\.Rmd$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.github$
+^doc$
+^Meta$
